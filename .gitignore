@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+.eggs/
+dist/
+pip-wheel-metadata/
+*.egg
+
+# Virtualenv
+env/
+venv/
+.venv/
+
+# .env files
+.env
+.env.*
+
+# Logs
+*.log
+*.out
+
+# Editor / IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Docker
+docker-compose.override.yml
+
+# Coverage / test
+.tox/
+.coverage
+.coverage.*
+pytest_cache/
+htmlcov/
+
+# Backup or temp files
+*.bak
+*.tmp
+*.temp
+
+# Frontend
+explorer/

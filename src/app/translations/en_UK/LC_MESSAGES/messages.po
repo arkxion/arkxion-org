@@ -1,0 +1,104 @@
+# English (United Kingdom) translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-03 01:41+0900\n"
+"PO-Revision-Date: 2025-02-03 01:41+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_GB\n"
+"Language-Team: en_GB <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: src/app/templates/home/index.html:15
+msgid "Experience the Future with AI × Blockchain."
+msgstr "Experience the Future with AI × Blockchain."
+
+#: src/app/templates/home/index.html:16
+msgid "Take the leap into the future — Start with Arkxion!"
+msgstr "Take the leap into the future — Begin your journey with Arkxion!"
+
+#: src/app/templates/home/index.html:23
+msgid "Read the Whitepaper"
+msgstr "Read the White Paper"
+
+#: src/app/templates/home/index.html:24
+msgid "Discover the detailed vision and technical framework behind Arkxion."
+msgstr "Explore the in-depth vision and technical framework that powers Arkxion."
+
+#: src/app/templates/home/index.html:25
+msgid "Learn More"
+msgstr "Find Out More"
+
+#: src/app/templates/home/index.html:31
+msgid "Contribute on GitHub"
+msgstr "Contribute via GitHub"
+
+#: src/app/templates/home/index.html:32
+msgid "Join our open-source community and contribute to the future of Arkxion."
+msgstr "Be part of our open-source community and shape Arkxion’s future."
+
+#: src/app/templates/home/index.html:33
+msgid "Start Contributing"
+msgstr "Begin Contributing"
+
+#: src/app/templates/home/index.html:38
+msgid "Arkxion’s Features"
+msgstr "Arkxion’s Capabilities"
+
+#: src/app/templates/home/index.html:39
+msgid ""
+"Get ready for decentralized governance, AI-powered decision making, and "
+"more."
+msgstr "Prepare for decentralised governance, AI-driven decision-making, and more."
+
+#: src/app/templates/home/index.html:40
+msgid "Comming Soon..."
+msgstr "Coming Soon..."
+
+#: src/app/templates/home/index.html:65
+msgid "Support Our Open Source Mission"
+msgstr "Support Our Open-Source Mission"
+
+#: src/app/templates/home/index.html:76
+msgid "About Us"
+msgstr "About Arkxion"
+
+#: src/app/templates/home/index.html:80
+msgid ""
+"Arkxion is a groundbreaking blockchain platform powered by the PoAI "
+"(Proof of Artificial Intelligence)\n"
+"            consensus mechanism. Combining cutting-edge AI with "
+"decentralized governance, Arkxion redefines the\n"
+"            landscape of digital assets, enhancing scalability, security,"
+" and efficiency. By integrating AI-driven\n"
+"            proposal generation, ethical evaluation, and decentralized "
+"validation, Arkxion addresses the limitations of\n"
+"            traditional consensus algorithms, paving the way for a "
+"sustainable and equitable digital future."
+msgstr ""
+"Arkxion is a pioneering blockchain platform powered by the PoAI (Proof of Artificial Intelligence)\n"
+"            consensus mechanism. By merging state-of-the-art AI with \n"
+"            decentralised governance, Arkxion transforms the \n"
+"            digital asset ecosystem, advancing scalability, security,\n"
+"            and efficiency. With AI-driven proposal generation,\n"
+"            ethical evaluation, and decentralised validation,\n"
+"            Arkxion overcomes the constraints of conventional \n"
+"            consensus mechanisms, paving the way for a fairer and \n"
+"            more sustainable digital future."
+
+#: src/app/templates/home/index.html:90
+msgid "Research Papers"
+msgstr "Research Papers"
+
+#: src/app/templates/home/index.html:91
+msgid "Explore the groundbreaking work by Arkxion in blockchain and AI."
+msgstr "Explore the pioneering research by Arkxion in blockchain and AI."

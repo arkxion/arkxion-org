@@ -1,0 +1,22 @@
+/* static/css/footer.css */
+footer {
+    background: #0D0D0D;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+footer p a {
+    color: #ff6600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer p a:hover {
+    color: #fff;
+}

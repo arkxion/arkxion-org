@@ -1,0 +1,96 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="../static/video/back.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1 class="hero-title">{{ _('Experience the Future with AI × Blockchain.') }}</h1>
+        <p>{{ _('Take the leap into the future — Start with Arkxion!') }}</p>
+        <div class="shared-width-container">
+            <div class="card-group">
+                <a href="https://zenodo.org/records/14760823">
+                    <div class="card card-left">
+                        <h3>{{ _('Read the Whitepaper') }}</h3>
+                        <p>{{ _('Discover the detailed vision and technical framework behind Arkxion.') }}</p>
+                        <a href="#whitepaper" class="arrow-link">{{ _('Learn More') }} →</a>
+                    </div>
+                </a>
+                <a href="https://github.com/arkxion">
+                    <div class="card card-middle">
+                        <h3>{{ _('Contribute on GitHub') }}</h3>
+                        <p>{{ _('Join our open-source community and contribute to the future of Arkxion.') }}</p>
+                        <a href="https://github.com/arkxion" class="arrow-link">{{ _('Start Contributing') }} →</a>
+                    </div>
+                </a>
+                <div class="card card-middle">
+                    <h3>{{ _('Arkxion’s Features') }}</h3>
+                    <p>{{ _('Get ready for decentralized governance, AI-powered decision making, and more.') }}</p>
+                    <a href="#features" class="arrow-link">{{ _('Comming Soon...') }} →</a>
+                </div>
+            </div>
+            <div class="hero-sns-icon-container">
+                <div class="hero-sns-icon">
+                    <div class="sns-item">
+                        <a href="https://zenodo.org/records/14760823" target="_blank" class="sns-icon">
+                            <img src="../static/img/sns/zenodo-icon-white.svg" alt="zenodo" class="sns-image">
+                        </a>
+                        <div class="sns-text">ZENODO</div>
+                    </div>
+                    <div class="sns-item">
+                        <a href="https://github.com/arkxion" target="_blank" class="sns-icon">
+                            <img src="../static/img/sns/github-mark-white.svg" alt="GitHub" class="sns-image">
+                        </a>
+                        <div class="sns-text">GitHub</div>
+                    </div>
+                </div>
+                <a href="https://github.com/arkxion" class="hero-button">
+                    {{ _('Support Our Open Source Mission') }}
+                    <img src="../static/img/action/heart.svg" alt="Heart" class="button-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-container">
+        <h2>{{ _('About Us') }}</h2>
+        <h1 class="about-title">Web4.0, ORIGIN.</h1>
+        <p>
+            {{ _('Arkxion is a groundbreaking blockchain platform powered by the PoAI (Proof of Artificial Intelligence)
+            consensus mechanism. Combining cutting-edge AI with decentralized governance, Arkxion redefines the
+            landscape of digital assets, enhancing scalability, security, and efficiency. By integrating AI-driven
+            proposal generation, ethical evaluation, and decentralized validation, Arkxion addresses the limitations of
+            traditional consensus algorithms, paving the way for a sustainable and equitable digital future.') }}
+        </p>
+    </div>
+</section>
+
+<section id="papers" class="research-papers">
+    <div class="container">
+        <h1>{{ _('Research Papers') }}</h1>
+        <p>{{ _('Explore the groundbreaking work by Arkxion in blockchain and AI.') }}</p>
+        <div class="paper-cards">
+            {% for paper in papers %}
+            <a href="{{ paper.pdf_link }}" class="paper-card">
+                <div class="paper-file-icon"></div>
+                <div class="paper-info">
+                    <h3>{{ paper.title }}</h3>
+                    {% if paper.subtitle %}
+                    <p class="subtitle">{{ paper.subtitle }}</p>
+                    {% endif %}
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}
